@@ -1,27 +1,33 @@
 body {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(94, 80, 63, 1);
     display: flex;
     flex-direction: column;
     gap: 50px;
     align-items: center;
     padding: 0px 200px;
-    color: whitesmoke;
+    color: rgb(234, 224, 213);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 800px;
+    font-size: 20px;
 }
 
 button {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
     align-items: center;
-    width: 100px;
+    width: 80px;
     border-radius: 10%;
-    background-color: rgb(11, 70, 70);
+    background-color: rgb(198, 172, 143);
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 img {
