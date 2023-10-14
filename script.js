@@ -43,14 +43,14 @@ function playGame (playerSelection) {
         ++wins
         document.querySelector('.stats span:nth-child(1)').textContent = `Wins = ${wins}`
         result.textContent = `You win! ${playerSelection} beats ${computerSelection} !`
-        endGame()
+        setTimeout(() => endGame(), 100)
     }
 
     else {
         ++losses
         document.querySelector('.stats span:nth-child(2)').textContent = `Losses = ${losses}`
         result.textContent = `You lose! ${computerSelection} beats ${playerSelection} !`
-        endGame()
+        setTimeout(() => endGame(), 100)
     }
 }
 
